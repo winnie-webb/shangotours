@@ -108,15 +108,6 @@ export const TransferBookingForm = ({ tour }) => {
       // Create booking in Firebase
       const orderNum = generateOrderNumber();
       setOrderNumber(orderNum);
-
-      // Save the booking details to Firebase
-      await addDoc(collection(db, "bookings"), {
-        ...formData,
-        orderNumber: orderNum,
-        timestamp: serverTimestamp(), // Add timestamp for when the booking was made
-        status: "pending", // Initial booking status
-      });
-      sendNotificationToAdmin();
       setIsMsgSent(true);
     } catch (error) {
       console.error("Error creating booking:", error.message);
