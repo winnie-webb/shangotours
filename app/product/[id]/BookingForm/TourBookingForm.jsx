@@ -1,18 +1,9 @@
 "use client";
 import React, { useRef, useState, useEffect, useCallback } from "react";
-import {
-  addDoc,
-  collection,
-  onSnapshot,
-  serverTimestamp,
-} from "firebase/firestore";
 import Pickup from "./Pickup";
 import NumberofPersons from "./NumberofPersons";
 import emailjs from "@emailjs/browser";
 import BookingSuccessMsg from "./BookingSuccessMsg";
-import { useRouter } from "next/navigation";
-import { db } from "@/firebase";
-import sendNotificationToAdmin from "@/app/utils/sendNotificationToAdmin";
 
 export const TourBookingForm = ({ tour }) => {
   const form = useRef();
@@ -71,10 +62,10 @@ export const TourBookingForm = ({ tour }) => {
     try {
       // Send email using EmailJS
       await emailjs.send(
-        "service_b3u5zxa",
-        "template_rrfkk4m",
+        "service_bxzszb4",
+        "template_dfzeh9n",
         formData,
-        "nxC4W-fiaC4DvJpPJ"
+        "epuh9swYXe8LQnw0q"
       );
       const orderNum = generateOrderNumber();
       setOrderNumber(orderNum);

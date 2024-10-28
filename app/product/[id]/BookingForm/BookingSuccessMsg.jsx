@@ -23,9 +23,9 @@ function BookingSuccessMsg({ orderNumber, formData }) {
             </h2>
             <p>
               Make your payment directly to our Zelle account:{" "}
-              <strong>eternaltours876@gmail.com</strong>. Please include your
-              order number <strong>{orderNumber}</strong> in the transaction
-              notes for reference.
+              <strong>oshaneih@gmail.com</strong>. Please include your order
+              number <strong>{orderNumber}</strong> in the transaction notes for
+              reference.
             </p>
           </div>
           <div className="bg-white p-4 rounded-lg shadow-md">
