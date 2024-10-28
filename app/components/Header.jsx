@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import logo from "../../public/logo.webp";
+import logo from "../../public/logo.png";
 import Image from "next/image";
 import {
   FaFacebook,
@@ -31,12 +31,7 @@ function Header() {
       {/* Logo */}
       <div className="flex justify-between items-center w-full xl:w-auto">
         <Link href="/">
-          <Image
-            width={150}
-            height={150}
-            alt="Island Ways Tours Logo"
-            src={logo}
-          />
+          <Image width={150} height={150} alt="Shango Tours Logo" src={logo} />
         </Link>
         {/* Hamburger menu for small screens */}
         <button
@@ -177,16 +172,10 @@ function Header() {
 
         {/* Social Icons (Visible on large screens) */}
         <div className="hidden xl:flex gap-x-5 justify-between">
-          <a target="_blank" href="https://www.tiktok.com/@eternaltours.ja">
+          <a target="_blank" href="https://www.tiktok.com/@123shango">
             <FaTiktok className="text-3xl" />
           </a>
-          <a
-            target="_blank"
-            href="https://www.facebook.com/desmond.brown.756859"
-          >
-            <FaFacebook className="text-3xl" />
-          </a>
-          <a target="_blank" href="https://www.instagram.com/jamaica_eternal_tours/">
+          <a target="_blank" href="https://www.instagram.com/shango_tours_ja/">
             <FaInstagram className="text-3xl" />
           </a>
         </div>
@@ -197,16 +186,10 @@ function Header() {
             isMenuOpen ? "flex" : "hidden"
           } xl:hidden flex gap-x-5 justify-center mt-5`}
         >
-          <a target="_blank" href="https://www.tiktok.com/@eternaltours.ja">
+          <a target="_blank" href="https://www.tiktok.com/@123shango">
             <FaTiktok className="text-3xl" />
           </a>
-          <a
-            target="_blank"
-            href="https://www.facebook.com/desmond.brown.756859"
-          >
-            <FaFacebook className="text-3xl" />
-          </a>
-          <a target="_blank" href="https://www.instagram.com/jamaica_eternal_tours/">
+          <a target="_blank" href="https://www.instagram.com/shango_tours_ja/">
             <FaInstagram className="text-3xl" />
           </a>
         </div>

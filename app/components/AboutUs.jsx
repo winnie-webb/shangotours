@@ -22,8 +22,8 @@ function AboutUs() {
         </div>
         <div className="relative w-90 h-72 md:flex-[45%] md:mt-14 md:h-[22rem] ">
           <Image
-            alt="Image of Founder with clients from Jamaica Eternal Tours"
-            src="/local/hero-1.jpg"
+            alt="Image of Founder with clients from Shango Tours"
+            src="/local/hero-8.jpg"
             fill={true}
             className="object-cover"
           ></Image>
