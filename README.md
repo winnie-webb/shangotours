@@ -1,7 +1,7 @@
-## Official Website for Jamaica Eternal Tours And Transportation
+## Official Website for ShangoTours And Transportation
 
 ### Description
-The website for the premier bus tour agency in Jamaica, Jamaica Eternal Tours And Transportation, integrated with a minimal booking management system for handling customer bookings, similar to WooCommerce. The system allows admins to manage bookings, track order numbers, and update booking statuses, with integrated notifications.
+The website for the premier bus tour agency in Jamaica, Shango Tours And Transportation, integrated with a minimal booking management system for handling customer bookings, similar to WooCommerce. The system allows admins to manage bookings, track order numbers, and update booking statuses, with integrated notifications.
 
 ### Features
 - Manage and view bookings
