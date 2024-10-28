@@ -9,24 +9,18 @@ function Footer() {
         <div className="flex flex-col  md:flex-row justify-evenly w-full">
           <div className="flex-[55%]">
             <h4 className="mb-2 font-bold">Contacts</h4>
-            <p className="mb-2">eternaltours876@gmail.com</p>
-            <p>+1 (876) 855-9645</p>
+            <p className="mb-2">oshaneih@gmail.com</p>
+            <p>+1 (876) 844-0589</p>
           </div>
           <div className=" flex-[45%] mt-4 md:mt-0">
             <h4 className="mb-2 font-bold">Socials</h4>
             <div className="flex gap-x-5">
-              <a target="_blank" href="https://www.tiktok.com/@eternaltours.ja">
+              <a target="_blank" href="https://www.tiktok.com/@123shango">
                 <FaTiktok className="text-3xl" />
               </a>
               <a
                 target="_blank"
-                href="https://www.facebook.com/desmond.brown.756859"
-              >
-                <FaFacebook className="text-3xl" />
-              </a>
-              <a
-                target="_blank"
-                href="https://www.instagram.com/jamaica_eternal_tours/"
+                href="https://www.instagram.com/shango_tours_ja/"
               >
                 <FaInstagram className="text-3xl" />
               </a>
